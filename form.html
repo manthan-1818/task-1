@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Register Form</title>
+<style>
+ 
+</style>
+</head>
+<body>
+
+<div class="mainContainer">
+    <div class="container readContent">
+        <div class="container">
+            <form name="registerForm" class="formBlock">
+                <h2 class="formTitle">Register form</h2>
+                <div>
+                    <label>Title:</label>
+                    <select name="" id="cusSelectbox">
+                        <option value="select">select</option>
+                        <option value="mr">mr</option>
+                        <option value="mrs">mrs</option>
+                    </select>
+                </div>
+                <div>
+                    <label>First Name:</label>
+                    <input type="text" id="firstName" placeholder="First Name" autocomplete="off"/>
+                </div>
+                <div>
+                    <label>Last Name:</label>
+                    <input type="text" id="lastName" placeholder="Last Name" autocomplete="off"/>
+                </div>
+                <div>
+                    <label>Date of birth:</label>
+                    <input type="date" id="birthday" name="birthday">
+                </div>
+                <div>
+                    <label>Email:</label>
+                    <input type="email" id="email" placeholder="Email" autocomplete="off"/>
+                </div>
+                <div class="user-box">
+                    <label>Password:</label>
+                    <input type="password" name="" id="password" placeholder="password" required="" autocomplete="off"/>
+                    <span class="password-toggle-icon"><i class="fas fa-eye"></i></span>
+                </div>
+                <div>
+                    <label>Country:</label>
+                    <select name="" id="cusSelectbox">
+                        <option value="select">select</option>
+                        <option value="india">india</option>
+                        <option value="nepal">nepal</option>
+                        <option value="bangladesh">bangladesh</option>
+                        <option value="sri lanka">sri lanka</option>
+                        <option value="pakistan">pakistan</option>
+                    </select>
+                </div>
+                <div class="btnBlock">
+                    <button type="submit" onclick="return validateRegister();" class="btn">Submit</button>
+                </div>
+                <div class="errorBlock">
+                    <p id="regisErr"></p>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

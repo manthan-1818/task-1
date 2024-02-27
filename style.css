@@ -1,0 +1,434 @@
+* {
+  #navbar1 {
+    margin: 0;
+    background-color: #fffbfb;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+    margin-bottom: 0%;
+  }
+
+  body {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding: 0%;
+    margin: 0;
+  }
+
+  #navbar1 a {
+    float: left;
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+
+  #navbar1 a:hover {
+    color: #fe0000;
+    text-decoration: none;
+  }
+
+  #navbar1 .register-btn {
+    background-color: #161616;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    float: right;
+    padding: 10px 20px;
+    margin-right: 4px;
+    margin-top: 6px;
+  }
+
+  #navbar1 .subscribe-btn {
+    background-color: #f80303;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    float: right;
+    padding: 10px 20px;
+    margin-right: 4px;
+    margin-top: 6px;
+  }
+
+  #navbar1 .register-btn:hover,
+  #navbar1 .subscribe-btn:hover {
+    background-color: #45a049;
+    color: white;
+  }
+
+  /* Style for the second navbar */
+  #navbar2 {
+    margin: 0;
+    background-color: #ff0000;
+    overflow: hidden;
+    position: fixed;
+    z-index: 3;
+    margin-top: 3.9%;
+    width: 100%;
+  }
+
+  #navbar2 a {
+    float: left;
+    display: block;
+    color: rgb(255, 250, 250);
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+
+  #navbar2 a:hover {
+    color: #000;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  th,
+  td {
+    padding: 8px;
+    text-align: left;
+  }
+
+  th {
+    background-color: #f2f2f2;
+  }
+
+  h1.headline {
+    font-size: 30px;
+    font-size: 3rem;
+    font-weight: normal;
+    margin-top: 0%;
+    padding-left: 4%;
+    padding-top: 10%;
+  }
+
+  img {
+    /* height: 30%; */
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* card zero */
+  .div-container {
+    display: flex;
+    padding: 0 50px;
+  }
+
+  .card-zero {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    display: block;
+    margin: auto;
+    position: relative;
+    padding: 0.3%;
+    text-align: center;
+    font-family: arial;
+    overflow: hidden;
+    transition: all 0.4s ease-in-out;
+  }
+
+  #card-0:hover {
+    color: white;
+    background-color: black;
+  }
+
+  .card-zero #imgcard,
+  .card-first .title {
+    transition: all 0.4s ease-in-out;
+  }
+
+  .card-zero:hover #imgcard {
+    transform: scale(1.2);
+  }
+
+  /* card - 1 */
+
+  .card_0 {
+    overflow: hidden;
+  }
+
+  #playercard {
+    padding: 0 40px 0;
+  }
+
+  .image-container {
+    display: flex;
+  }
+
+  #img {
+    padding-bottom: 30%;
+    width: 50%;
+    height: 80%;
+    display: block;
+  }
+
+  #img {
+    width: 100%;
+    height: 80%;
+  }
+
+  #imgcard {
+    width: 100%;
+  }
+
+  .card-first {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    margin: auto;
+    position: relative;
+    padding: 0.3%;
+    text-align: center;
+    font-family: arial;
+    overflow: hidden;
+    transition: all 0.4s ease-in-out;
+  }
+
+  .title1 {
+    color: white;
+  }
+  .title0 {
+    margin: 0;
+    padding: 10px 0 10px 0;
+  }
+
+  .title0:hover {
+    transform: translateY(-15px);
+    color: white;
+    background-color: black;
+  }
+
+  .titleprop {
+    padding: 0;
+    margin: 0;
+  }
+
+  #card-1:hover {
+    color: white;
+    background-color: black;
+  }
+
+  .card-first #imgcard,
+  .card-first .title {
+    transition: all 0.4s ease-in-out;
+  }
+
+  .card-first:hover #imgcard {
+    transform: scale(1.2);
+  }
+
+  /* title */
+
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+
+  .paragraph {
+    margin: 0 0 2px;
+    padding: 30px 20px;
+    overflow: hidden;
+    display: block;
+  }
+
+  /* title-2 */
+
+  .feature-title {
+    color: #171717;
+    font-size: 12px;
+    font-size: 2.2rem;
+    font-weight: 700;
+    letter-spacing: -1px;
+    margin-left: 6%;
+  }
+
+  /* form */
+
+  .mainContainer {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 1px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+
+  .formBlock {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+  }
+
+  .formTitle {
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  #cusSelectbox {
+    width: 40%;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+
+  #birthday {
+    width: 40%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+
+  .btnBlock {
+    text-align: center;
+    margin-bottom: 35px;
+  }
+
+  .btn {
+    padding: 9px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .errorBlock {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .mainContainer {
+    background-color: grey;
+  }
+
+  button {
+    border: none;
+    outline: 0;
+    /* display: inline-block; */
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 20%;
+    font-size: 18px;
+    float: right;
+  }
+
+  /* last card */
+
+  #playercard2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .wrapper {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .card {
+    max-width: 280px;
+    max-height: 280px;
+    position: relative;
+    margin-bottom: 3%;
+    /* margin-left: 4%; */
+  }
+
+  .imageBox img {
+    width: 100%;
+    height: 100%;
+  }
+  .text {
+    position: absolute;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    background: linear-gradient(
+      176deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(0, 0, 0, 1) 100%
+    );
+    transition: all 0.3s ease-in-out;
+    margin-top: 20%;
+    font-family: "F1BoldRegular", Helvetica, sans-serif;
+    padding-top: 25%;
+    font-size: 0.9rem;
+    line-height: 1.222;
+    color: #fff;
+  }
+
+  #p {
+    font-weight: bolder;
+  }
+  .text:hover {
+    height: 75%;
+    /* height: 79%; */
+    padding-top: 10%;
+  }
+
+  /* footer */
+  .f1-footer {
+    border-right: solid rgb(36, 31, 31) 5px;
+    /* border-radius: 10px; */
+    border-top: solid rgb(36, 31, 31) 5px;
+    border-top-right-radius: 10px;
+  }
+  ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: end;
+    align-items: end;
+  }
+
+  /* .footer-hr {
+        border: solid rgb(250, 11, 11) 0.3%;
+  } */
+
+  li {
+    padding-right: 1%;
+  }
+  footer p {
+    text-align: right;
+    padding-right: 1%;
+  }
+}
